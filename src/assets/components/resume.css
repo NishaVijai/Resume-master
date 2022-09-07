@@ -11,7 +11,11 @@
   --dark-nav-color: rgb(224, 219, 236);
   --dark-left-h2: rgb(192, 158, 46);
   --dark-resume-right-color: rgba(252, 251, 246, 0.9);
+  --light-a-color: rgb(152, 2, 2);
+  --light-left: rgb(1, 51, 114);
+  --light-left-h2: #760246;
   --left-bg: rgb(25, 49, 94);
+  --light-left-bg: rgba(107, 150, 154, 0.3);
   --left-color: rgb(238, 237, 237);
   --left-h2: rgb(230, 117, 25);
   --left-hr: rgb(102, 109, 8);
@@ -57,7 +61,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.2rem;
-  height: 100vh;
+  min-height: 100vh;
   overflow-x: hidden;
   width: 100vw;
 }
@@ -68,6 +72,10 @@ main {
 
 header {
   text-align: center;
+}
+
+header address p {
+  font-size: 1.1rem;
 }
 
 h1 {
@@ -106,7 +114,6 @@ img {
 
 .resume-container {
   display: grid;
-  grid-template-columns: 22% auto;
   grid-template-areas: "a h" "a m" "a m";
 }
 
@@ -115,11 +122,61 @@ header {
 }
 
 aside {
+  background-color: var(--left-bg);
   grid-area: a;
 }
 
 main {
   grid-area: m;
+}
+
+@media (prefers-color-scheme: light) {
+  header address p {
+    color: var(--primary);
+  }
+
+  aside {
+    background-color: var(--dark-nav-bg-color);
+  }
+
+  .resume-left-section .resume-left {
+    background-color: var(--light-left-bg);
+  }
+
+  .resume-left {
+    color: var(--light-left);
+    font-weight: bold;
+  }
+
+  .projects-container .projects a {
+    color: var(--light-a-color);
+  }
+
+  .resume-left h2 {
+    color: var(--light-left-h2);
+  }
+
+  .resume-left hr {
+    border: var(--padding-1-px) solid var(--left-h2);
+  }
+
+  header #h1-hr {
+    border-bottom-color: var(--left-hr);
+  }
+
+  .nav-item,
+  .to-top-button {
+    background: var(--dark-nav-bg-color);
+  }
+
+  .link-item,
+  .to-top-button {
+    font-weight: bolder;
+  }
+
+  #first a {
+    color: var(--light-a-color);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -163,7 +220,8 @@ main {
 
   #first a,
   .project-description li,
-  .education-description p {
+  .education-description p,
+  .projects-container .projects a {
     color: var(--dark-a-li-p-color);
   }
 

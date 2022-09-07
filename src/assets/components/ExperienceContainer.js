@@ -20,7 +20,7 @@ export default function ExperienceContainer(props) {
   ));
 
   const descriptionContainer = props.description.map((desc) => (
-    <li key={desc.id} tabIndex="0">
+    <li key={desc.id}>
       {desc.des}
     </li>
   ));
@@ -28,9 +28,9 @@ export default function ExperienceContainer(props) {
   return (
     <article className="projects-container">
       <section className="projects left-section">
-        <p tabIndex="0">{props.date}</p>
-        <p tabIndex="0">{props.title}</p>
-        <p tabIndex="0">
+        <p>{props.date}</p>
+        <p>{props.title}</p>
+        <p>
           <a href={props.compLink} target="_blank" rel="noopener  noreferrer">
             {props.project}
           </a>
@@ -40,7 +40,7 @@ export default function ExperienceContainer(props) {
       <section className="project-description">
         <ul>
           {descriptionContainer}
-          <li tabIndex="0">{imgList}</li>
+          <li>{imgList}</li>
         </ul>
       </section>
     </article>

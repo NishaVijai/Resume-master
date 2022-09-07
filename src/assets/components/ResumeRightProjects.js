@@ -18,7 +18,7 @@ export default class ResumeRightProjects extends Component {
     return (
       <article id="second">
         <hr className="hr-mobile-view" />
-        <h3 tabIndex="0">experience</h3>
+        <h3>experience</h3>
         <hr className="move-hr" />
         {experienceComponent}
       </article>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ResumeLeft from "./ResumeLeft";
 import ResumeRight from "./ResumeRight";
+import ResumeLeftLanguageContent from "./ResumeLeftLanguageContent";
 
 import ResumePDF from "../images/resume_nishavijai_vercel_app.pdf";
 
@@ -11,10 +12,10 @@ export default class Resume extends Component {
     return (
       <div className="resume-container">
         <header>
-          <h1 tabIndex="0">front-end web developer</h1>
+          <h1>front-end web developer</h1>
           <p id="h1-hr" />
           <address id="first">
-            <p tabIndex="0">
+            <p>
               Mail:{" "}
               <a
                 href="mailto:nishavijai@gmail.com"
@@ -24,14 +25,14 @@ export default class Resume extends Component {
               </a>
             </p>
 
-            <p tabIndex="0">
+            <p>
               Mobile:{" "}
               <a href="tel:+45-53265717" title="Nisha's mobile number">
                 +45-53265717
               </a>
             </p>
 
-            <p tabIndex="0">
+            <p>
               Website:{" "}
               <a
                 href="https://nishas-portfolio-2019.vercel.app/"
@@ -41,14 +42,14 @@ export default class Resume extends Component {
                 nishasportfolio
               </a>
             </p>
-            <p tabIndex="0">
+            <p>
               Download:{" "}
               <a href={ResumePDF} target="_blank" rel="noopener  noreferrer">
                 Resume as PDF
               </a>
             </p>
           </address>
-          <div
+          {/* <div
             className="badge-base LI-profile-badge"
             data-locale="en_US"
             data-size="medium"
@@ -66,8 +67,25 @@ export default class Resume extends Component {
             >
               Noorunnisha
             </a>
-          </div>
+          </div> */}
         </header>
+
+        <section className="resume-left-section">
+          <section className="resume-left--toggle">
+            <label className="hamburger--checkbox-label"> hamburger icon
+              <input type="checkbox" />
+            </label>
+            
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <section className="resume-left resume-left--toggle__content">
+              <ResumeLeftLanguageContent />
+            </section>
+          </section>
+        </section>
+
         <aside>
           <ResumeLeft />
         </aside>

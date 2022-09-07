@@ -7,11 +7,20 @@ h2 {
   text-transform: uppercase;
 }
 
-.resume-left {
+.resume-left-section .resume-left {
   background-color: var(--left-bg);
+  /* background-color: red; */
+  /* color: var(--left-color); */
+  /* font-weight: 500; */
+  /* height: 100%; */
+  /* padding: var(--padding-20-px); */
+}
+
+.resume-left {
+  /* background-color: var(--left-bg); */
   color: var(--left-color);
   font-weight: 500;
-  height: 100%;
+  /* height: 100%; */
   padding: var(--padding-20-px);
 }
 
@@ -46,3 +55,95 @@ h2 {
   padding: var(--padding-5-px);
   text-transform: uppercase;
 }
+
+/* resume-left--toggle hamburger - start */
+.resume-left--toggle {
+  /* display: block; */
+}
+
+.hamburger--checkbox-label {
+  display: none;
+}
+
+.resume-left--toggle input {
+  /* display: block; */
+  height: 32px;
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  --webkit-touch-callout: none;
+}
+
+.resume-left--toggle span {
+  /* display: block; */
+  display: none;
+  height: 4px;
+  width: 33px;
+  position: relative;
+  top: 15px;
+  left: 25px;
+  background-color: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  margin-bottom: 5px;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background-color 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+.resume-left--toggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+.resume-left--toggle span:last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+.resume-left--toggle input:checked ~ span {
+  opacity: 1;
+  /* transform: rotate(45deg) translate(-2px, -1px); */
+  transform: rotate(45deg) translate(1px, -1px);
+  background-color: #cdcdcd;
+}
+
+.resume-left--toggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.resume-left--toggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+.resume-left--toggle .resume-left--toggle__content {
+  /* background-color: aqua; */
+  position: absolute;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+.resume-left--toggle input:checked ~ .resume-left--toggle__content
+{
+  transform: none;
+}
+/* resume-left--toggle hamburger - end */
+
+/* media query for devices less than or equal to 600px - start */
+@media only screen and (max-width: 700px)  {
+  aside {
+    display: none;
+  }
+
+  .resume-left--toggle span {
+    display: block;
+  }
+}
+/* media query for devices less than or equal to 600px - end */

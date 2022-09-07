@@ -61,7 +61,7 @@ export default class ResumeRight extends Component {
 
 					<ResumeRightEducation />
 
-					<button aria-label="Go to top of the page" title="Scroll to the top of the page" tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}>
+					<button aria-label="Go to top of the page" title="Go to top" tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}>
 						{' '}
 						Top{' '}
 					</button>
