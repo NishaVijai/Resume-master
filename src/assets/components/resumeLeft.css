@@ -1,26 +1,14 @@
-a {
-  color: rgba(181, 197, 199, 0.6);
-  text-decoration: none;
-}
-
 h2 {
   text-transform: uppercase;
 }
 
-.resume-left-section .resume-left {
+.resume-left {
   background-color: var(--left-bg);
-  /* background-color: red; */
-  /* color: var(--left-color); */
-  /* font-weight: 500; */
-  /* height: 100%; */
-  /* padding: var(--padding-20-px); */
 }
 
 .resume-left {
-  /* background-color: var(--left-bg); */
   color: var(--left-color);
   font-weight: 500;
-  /* height: 100%; */
   padding: var(--padding-20-px);
 }
 
@@ -56,94 +44,97 @@ h2 {
   text-transform: uppercase;
 }
 
-/* resume-left--toggle hamburger - start */
-.resume-left--toggle {
-  /* display: block; */
-}
-
-.hamburger--checkbox-label {
+/* small screen burgermenu - start */
+label {
   display: none;
 }
 
-.resume-left--toggle input {
-  /* display: block; */
-  height: 32px;
-  width: 40px;
+label .menu {
   position: absolute;
-  top: 10px;
-  left: 20px;
+  top: 0;
+  right: 0;
+  width: 10%;
+  height: 5%;
+  background: #FFF;
+  border-radius: 50% 50% 50% 50%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
   cursor: pointer;
-  opacity: 0;
-  z-index: 2;
-  --webkit-touch-callout: none;
 }
 
-.resume-left--toggle span {
-  /* display: block; */
-  display: none;
-  height: 4px;
-  width: 33px;
-  position: relative;
-  top: 15px;
-  left: 25px;
-  background-color: #cdcdcd;
-  border-radius: 3px;
-  z-index: 1;
-  margin-bottom: 5px;
-  transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background-color 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
-
-.resume-left--toggle span:first-child {
-  transform-origin: 0% 0%;
-}
-
-.resume-left--toggle span:last-child(2) {
-  transform-origin: 0% 100%;
-}
-
-.resume-left--toggle input:checked ~ span {
-  opacity: 1;
-  /* transform: rotate(45deg) translate(-2px, -1px); */
-  transform: rotate(45deg) translate(1px, -1px);
-  background-color: #cdcdcd;
-}
-
-.resume-left--toggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-.resume-left--toggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
-.resume-left--toggle .resume-left--toggle__content {
-  /* background-color: aqua; */
+label .hamburger {
   position: absolute;
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  top: 4%;
+  left: 25%;
+  width: 50%;
+  height: 6%;
+  background: #69D2e7;
+  display: block;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
-.resume-left--toggle input:checked ~ .resume-left--toggle__content
-{
-  transform: none;
+label .hamburger:after, label .hamburger:before {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #69d2e7;
 }
-/* resume-left--toggle hamburger - end */
 
-/* media query for devices less than or equal to 600px - start */
-@media only screen and (max-width: 700px)  {
-  aside {
-    display: none;
-  }
-
-  .resume-left--toggle span {
-    display: block;
-  }
+label .hamburger:before {
+  top: -10px; 
 }
-/* media query for devices less than or equal to 600px - end */
+
+label .hamburger:after { 
+  bottom: -10px; 
+}
+
+label input { 
+  display: none; 
+}
+
+label input:checked + .menu {
+  box-shadow: 0 0 0 100vw var(--left-bg), 0 0 0 60vh var(--left-bg);
+}
+
+label input:checked + .menu .hamburger {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+label input:checked + .menu .hamburger:after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+label input:checked + .menu .hamburger:before {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 0; 
+}
+
+label input:checked + .menu + .resume-left { 
+  opacity: 1; 
+  z-index: 1; 
+}
+
+label .resume-left {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: .25s 0s ease-in-out;
+  transition: .25s 0s ease-in-out;
+  width:100%;
+}
+/* small screen burgermenu - end */

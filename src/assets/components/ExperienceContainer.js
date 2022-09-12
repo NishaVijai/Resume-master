@@ -3,11 +3,13 @@ import React from "react";
 export default function ExperienceContainer(props) {
   const imgList = props.links.map((lin) => (
     <a
+      className="projects-link projects-link-title"
       key={lin.id}
       href={lin.projLink}
       target="_blank"
       rel="noopener  noreferrer"
-      title={lin.altText}
+      // title={lin.altText}
+      data-title={lin.altText}
     >
       {lin.linkName}{" "}
       <img
@@ -31,7 +33,7 @@ export default function ExperienceContainer(props) {
         <p>{props.date}</p>
         <p>{props.title}</p>
         <p>
-          <a href={props.compLink} target="_blank" rel="noopener  noreferrer">
+          <a href={props.compLink} target="_blank" rel="noopener  noreferrer" data-title={props.dataTitle} className="custom-link experience-site-link">
             {props.project}
           </a>
         </p>

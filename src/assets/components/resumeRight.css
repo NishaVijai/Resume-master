@@ -12,6 +12,10 @@ h3 {
   text-transform: uppercase;
 }
 
+#second .projects-container .projects .custom-link {
+  text-decoration: none;
+}
+
 /* nav-item */
 .nav-item {
   background: var(--nav-bg);
@@ -22,7 +26,7 @@ h3 {
   font-size: 0.9rem;
   position: fixed;
   right: var(--padding-30-px);
-  top: var(--padding-20-px);
+  top: 5%;
   -webkit-border-radius: var(--padding-20-px);
   -moz-border-radius: var(--padding-20-px);
   -ms-border-radius: var(--padding-20-px);
@@ -81,7 +85,7 @@ h3 {
 }
 
 .education-description p:nth-of-type(2) {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .project-description,
@@ -101,7 +105,8 @@ h3 {
   text-decoration: underline;
 }
 
-.projects {
+.projects,
+.degrees {
   padding: var(--padding-10-px);
 }
 
@@ -131,7 +136,7 @@ h3 {
 /* to top button */
 .to-top-button {
   background: var(--to-top-bg);
-  border: none;
+  border: var(--padding-1-px) solid var(--border-color-transparent);
   border-radius: 50%;
   color: var(--nav-color);
   cursor: pointer;
@@ -147,6 +152,10 @@ h3 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+.hide {
+  display: none;
 }
 
 .to-top-button:hover,

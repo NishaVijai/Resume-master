@@ -10,6 +10,7 @@ const expData = [
     date: "October 2021 - Present",
     title: "Front-end web developer",
     project: "JO Informatik - Helsingør",
+    dataTitle: "JO Informatik website link",
     compLink: "https://www.jo-informatik.dk/om-jo-informatik/",
     description: [
       {
@@ -37,6 +38,7 @@ const expData = [
     date: "September 2020 - October 2021",
     title: "Front-end web developer",
     project: "JO Informatik - Helsingør",
+    dataTitle: "JO Informatik website link",
     compLink: "https://www.jo-informatik.dk/om-jo-informatik/",
     description: [
       {
@@ -68,6 +70,7 @@ const expData = [
     date: "October 2019 - November 2019",
     title: "front-end web developer",
     project: "chingu-voyage 12",
+    dataTitle: "Chingu.io website link",
     compLink: "https://chingu.io/",
     description: [
       {
@@ -107,6 +110,7 @@ const expData = [
     date: "September 2019 - October 2019",
     title: "front-end web developer",
     project: "chingu-voyage 11",
+    dataTitle: "Chingu.io website link",
     compLink: "https://chingu.io/",
     description: [
       {
@@ -142,6 +146,7 @@ const expData = [
     date: "June 2019 - July 2019",
     title: "front-end web developer",
     project: "chingu-voyage 09 - group project",
+    dataTitle: "Chingu.io website link",
     compLink:
       "https://medium.com/chingu/build-hack-learn-230-developer-projects-from-the-chingu-cohorts-43ef6596447e",
     description: [
@@ -183,6 +188,7 @@ const expData = [
     date: "May 2019",
     title: "front-end web developer",
     project: "chingu-voyage 09 - prework-solo-project",
+    dataTitle: "Chingu.io website link",
     compLink:
       "https://medium.com/chingu/build-hack-learn-230-developer-projects-from-the-chingu-cohorts-43ef6596447e",
     description: [
@@ -219,6 +225,7 @@ const expData = [
     date: "March 2019 - April 2019",
     title: "front-end web developer",
     project: "chingu-voyage 08 - group project",
+    dataTitle: "Chingu.io website link",
     compLink: "https://chingu.io/",
     description: [
       {
@@ -259,6 +266,7 @@ const expData = [
     date: "February 2019",
     title: "front-end web developer",
     project: "chingu-voyage 08 - prework-solo-project",
+    dataTitle: "Chingu.io website link",
     compLink: "https://chingu.io/",
     description: [
       {

@@ -7,9 +7,30 @@ import ResumeRightEducation from './ResumeRightEducation';
 import './resumeRight.css';
 
 export default class ResumeRight extends Component {
+	componentDidMount() {
+		const showOnPx = 100;
+		const scrollContainer = () => {
+			return document.documentElement || document.body;
+		  };
+		const getTopButton = document.getElementById("to-top-button-id");
+
+		window.addEventListener(
+		  "scroll",
+		  function(event) {
+			if (scrollContainer().scrollTop > showOnPx) {
+				getTopButton.classList.remove("hide");
+			}
+			else {
+				getTopButton.classList.add("hide");
+			}
+		  },
+		  false
+		);
+	  }
+
 	render() {
 		const scrollToTop = () => {
-			scroll.scrollTo(0);
+			scroll.scrollTo(0, 0);
 		};
 
 		const scrollToExperience = () => {
@@ -17,7 +38,7 @@ export default class ResumeRight extends Component {
 		};
 
 		const scrollToEducation = () => {
-			scroll.scrollTo(1150);
+			scroll.scrollTo(1150);	
 		};
 
 		return (
@@ -25,9 +46,9 @@ export default class ResumeRight extends Component {
 				<nav className="nav-item">
 					<Link
 						aria-label="Experience section"
-						title="Scroll to Experience Section"
+						data-title="Scroll to Experience Section"
 						tabIndex="0"
-						className="link-item"
+						className="link-item link-item-experience"
 						onKeyPress={scrollToExperience}
 						activeClass="active"
 						to="second"
@@ -41,9 +62,9 @@ export default class ResumeRight extends Component {
 
 					<Link
 						aria-label="Education section"
-						title="Scroll to Education Section"
+						data-title="Scroll to Education Section"
 						tabIndex="0"
-						className="link-item"
+						className="link-item link-item-education"
 						onKeyPress={scrollToEducation}
 						activeClass="active"
 						to="third"
@@ -61,7 +82,7 @@ export default class ResumeRight extends Component {
 
 					<ResumeRightEducation />
 
-					<button aria-label="Go to top of the page" title="Go to top" tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}>
+					<button id="to-top-button-id" aria-label="Go to top of the page" tabIndex="0" data-title="Go to top" className="to-top-button hide" onKeyPress={scrollToTop} onClick={scrollToTop}>
 						{' '}
 						Top{' '}
 					</button>
