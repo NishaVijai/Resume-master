@@ -45,11 +45,8 @@ h2 {
 }
 
 /* small screen burgermenu - start */
-label {
-  display: none;
-}
-
 label .menu {
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -61,6 +58,7 @@ label .menu {
   transition: .5s ease-in-out;
   box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
   cursor: pointer;
+  z-index: 2;
 }
 
 label .hamburger {
@@ -118,7 +116,20 @@ label input:checked + .menu .hamburger:before {
   top: 0; 
 }
 
+label input:checked + .menu + .resume-left {
+  display: block;
+  opacity: 1;
+  z-index: 1;
+  pointer-events: none;
+}
+
 label .resume-left {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
   display: none;
+  width: 100%;
 }
 /* small screen burgermenu - end */

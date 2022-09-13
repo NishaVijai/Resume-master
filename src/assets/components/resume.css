@@ -134,6 +134,10 @@ main {
   grid-area: m;
 }
 
+.projects-container > a {
+  pointer-events: inherit;
+}
+
 /* custom anchor link underline (hover) - start */
 .custom-link {
   position: relative;
@@ -364,28 +368,9 @@ main {
     display: none;
   }
 
-  label {
-    display: block;
-  }
-
   label .menu {
-    z-index: 2;
-  }
-
-  label input:checked + .menu + .resume-left { 
-    opacity: 1;
-  }
-
-  label .resume-left {
-    position: absolute;
-    top: 0;
-    opacity: 0;
-    -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    z-index: 1;
     display: block;
-    width: 100%;
-  }
+  }  
 
   .resume-container {
     display: block;
