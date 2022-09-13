@@ -201,13 +201,11 @@ main {
 
 .address-link::before {
   top: 1em;
-  left: 8em;
-  width: 8vw;
-  height: 2vh;
+  left: -11em;
 }
 
-.address-mail-link::before {
-  left: 11em;
+.address-portfolio-link::before {
+  left: -8em;
 }
 
 .projects-link-title::before {
@@ -239,33 +237,14 @@ main {
     color: var(--primary);
   }
 
-  aside {
-    /* background-color: var(--dark-nav-bg-color); */
-  }
-
-  /* .resume-left-section .resume-left {
-    background-color: var(--light-left-bg);
-  } */
-
   aside,
   .resume-left {
-  /* .resume-left--toggle { */
     background-color: var(--light-left-bg);
-    /* background-color: blue; */
   }
 
   label .menu {
     background: var(--light-nav-color);
   }
-
-  label input:checked + .menu {
-    box-shadow: 0 0 0 100vw var(--left-bg), 0 0 0 70vh var(--left-bg);
-    box-shadow: 0 0 0 100vw var(--light-left-bg), 0 0 0 60vh var(--light-left-bg);
-  }
-
-  /* .resume-left {
-    background-color: var(--left-bg);
-  } */
 
   .resume-left {
     color: var(--light-left);
@@ -385,28 +364,27 @@ main {
     display: none;
   }
 
-  .resume-left-section > * {
-    /* display: block; */
-  }
-
-  /* .resume-left--toggle {
-    display: block;
-  } */
-
-  .resume-left--toggle {
-    display: block;
-  }
-
-  .resume-left--toggle {
-    /* display: block; */
-  }
-
-  .resume-left--toggle span {
-    /* display: block; */
-  }
-
   label {
     display: block;
+  }
+
+  label .menu {
+    z-index: 2;
+  }
+
+  label input:checked + .menu + .resume-left { 
+    opacity: 1;
+  }
+
+  label .resume-left {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    z-index: 1;
+    display: block;
+    width: 100%;
   }
 
   .resume-container {
@@ -423,7 +401,7 @@ main {
   .nav-item {
     position: fixed;
     right: var(--padding-15-px);
-    top: 8%;
+    top: 14%;
   }
 
   .link-item,

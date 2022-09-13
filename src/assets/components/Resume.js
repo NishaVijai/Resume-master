@@ -19,7 +19,7 @@ export default class Resume extends Component {
               <a
                 href="mailto:nishavijai@gmail.com"
                 data-title="Nisha's g-mail address"
-                className="custom-link address-link address-mail-link"
+                className="custom-link address-link"
               >
                 nishavijai@gmail.com
               </a>
@@ -39,7 +39,7 @@ export default class Resume extends Component {
                 target="_blank"
                 rel="noopener  noreferrer"
                 data-title="Nisha's portfolio"
-                className="custom-link address-link"
+                className="custom-link address-link address-portfolio-link"
               >
                 nishasportfolio
               </a>
