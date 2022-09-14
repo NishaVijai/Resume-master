@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ResumeRight from "./ResumeRight";
 import ResumeLeftLanguageContent from "./ResumeLeftLanguageContent";
 
-import ResumePDF from "../images/resume_nishavijai_vercel_app.pdf";
+import ResumePDF from "../images/NishasResume.pdf";
 
 import "./resume.css";
 
