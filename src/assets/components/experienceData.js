@@ -7,7 +7,7 @@ import filarkivLinkImage from "../images/links-line.svg";
 const expData = [
   {
     id: 1,
-    date: "October 2021 - Present",
+    date: "October 2021 - August 2022",
     title: "Front-end web developer",
     project: "JO Informatik - Helsingør",
     dataTitle: "JO Informatik website link",

@@ -13,7 +13,7 @@ const langData = [
       },
       {
         id: 3,
-        lang: "react & vue",
+        lang: "react, vue & blazor",
       },
       {
         id: 4,
