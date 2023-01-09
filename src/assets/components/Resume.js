@@ -35,7 +35,7 @@ export default class Resume extends Component {
             <p>
               Website:{" "}
               <a
-                href="https://nishas-portfolio-2019.vercel.app/"
+                href="https://nishasportfolio2023.netlify.app/"
                 target="_blank"
                 rel="noopener  noreferrer"
                 data-title="Nisha's portfolio"
