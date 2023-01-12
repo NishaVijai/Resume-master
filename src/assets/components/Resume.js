@@ -39,7 +39,7 @@ export default class Resume extends Component {
             </p>
             <p>
               Download:{" "}
-              <a href={ResumePDF} target="_blank" rel="noopener  noreferrer" data-title="Download Nisha's resume" className="custom-link address-link">
+              <a href={NishasResume} target="_blank" rel="noopener  noreferrer" data-title="Download Nisha's resume" className="custom-link address-link">
                 Resume as PDF
               </a>
             </p>
