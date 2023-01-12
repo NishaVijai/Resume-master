@@ -13,37 +13,81 @@ const langData = [
       },
       {
         id: 3,
-        lang: "react, vue & blazor",
-      },
-      {
-        id: 4,
-        lang: "javascript & typescript",
-      },
-      {
-        id: 5,
         lang: "WCAG - Web Accessibility",
-      },
+      }
     ],
   },
   {
     id: 2,
-    langTitle: "back-end",
-    languages: [{ id: 1, lang: "python" }, { id: 2, lang: "c#" }],
+    langTitle: "web frameworks",
+    languages: [
+      {
+        id: 1,
+        lang: "react",
+      },
+      {
+        id: 2,
+        lang: "vue",
+      },
+      {
+        id: 3,
+        lang: "blazor",
+      }
+    ],
   },
   {
     id: 3,
-    langTitle: "version-control",
-    languages: [{ id: 1, lang: "git" }],
+    langTitle: "programming languages",
+    languages: [
+      {
+        id: 1,
+        lang: "javascript",
+      },
+      {
+        id: 2,
+        lang: "typescript",
+      },
+      {
+        id: 3,
+        lang: "python",
+      },
+      {
+        id: 4,
+        lang: "c#",
+      }
+    ],
   },
   {
     id: 4,
+    langTitle: "design tools",
+    languages: [
+      { id: 1, lang: "adobe xd" }, 
+      { id: 2, lang: "figma" }
+    ],
+  },
+  {
+    id: 5,
+    langTitle: "cms",
+    languages: [
+      { id: 1, lang: "wordpress" }, 
+      { id: 2, lang: "umbraco" }
+    ],
+  },
+  {
+    id: 6,
+    langTitle: "version-control",
+    languages: [{ id: 1, lang: "git" }
+  ],
+  },
+  {
+    id: 7,
     langTitle: "languages",
     languages: [
       { id: 1, lang: "english" },
       { id: 2, lang: "danish" },
       { id: 3, lang: "tamil" },
       { id: 4, lang: "hindi" },
-      { id: 5, lang: "urdu" },
+      { id: 5, lang: "urdu" }
     ],
   },
 ];
