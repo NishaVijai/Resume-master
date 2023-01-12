@@ -26,13 +26,6 @@ export default class Resume extends Component {
             </p>
 
             <p>
-              Mobile:{" "}
-              <a href="tel:+45-53265717" data-title="Nisha's mobile number" className="custom-link address-link">
-                +45-53265717
-              </a>
-            </p>
-
-            <p>
               Website:{" "}
               <a
                 href="https://nishasportfolio2023.netlify.app/"
