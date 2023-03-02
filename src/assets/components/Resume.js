@@ -29,6 +29,8 @@ export default class Resume extends Component {
               LinkedIn Link:{" "}
               <a
                 href="https://www.linkedin.com/in/noorunnisha-thamizuddin-319976105/"
+                target="_blank" 
+                rel="noopener  noreferrer"
                 data-title="Nisha's LinkedIn Profile"
                 className="custom-link address-link"
               >
@@ -40,6 +42,8 @@ export default class Resume extends Component {
               GitHub Link:{" "}
               <a
                 href="https://github.com/NishaVijai?tab=repositories"
+                target="_blank" 
+                rel="noopener  noreferrer"
                 data-title="Nisha's GitHub Repo"
                 className="custom-link address-link"
               >
