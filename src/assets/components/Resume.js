@@ -26,43 +26,27 @@ export default class Resume extends Component {
             </p>
 
             <p>
-              Website:{" "}
+              LinkedIn:{" "}
               <a
-                href="https://nishasportfolio2023.netlify.app/"
-                target="_blank"
-                rel="noopener  noreferrer"
-                data-title="Nisha's portfolio"
-                className="custom-link address-link address-portfolio-link"
+                href="https://www.linkedin.com/in/noorunnisha-thamizuddin-319976105/"
+                data-title="Nisha's LinkedIn Profile"
+                className="custom-link address-link"
               >
-                nishasportfolio
+                nishavijai@gmail.com
               </a>
             </p>
+
             <p>
-              Download:{" "}
-              <a href={NishasResume} target="_blank" rel="noopener  noreferrer" data-title="Download Nisha's resume" className="custom-link address-link">
-                Resume as PDF
+              GitHub:{" "}
+              <a
+                href="https://github.com/NishaVijai?tab=repositories"
+                data-title="Nisha's GitHub Repo"
+                className="custom-link address-link"
+              >
+                nishavijai@gmail.com
               </a>
             </p>
           </address>
-          {/* <div
-            className="badge-base LI-profile-badge"
-            data-locale="en_US"
-            data-size="medium"
-            data-theme="light"
-            data-type="VERTICAL"
-            data-vanity="noorun-nisha-319976105"
-            data-version="v1"
-          >
-            LinkedIn Profile:{" "}
-            <a
-              className="badge-base__link LI-simple-link"
-              href="https://dk.linkedin.com/in/noorun-nisha-319976105?trk=profile-badge"
-              target="_blank"
-              rel="noopener  noreferrer"
-            >
-              Noorunnisha
-            </a>
-          </div> */}
         </header>
 
         <label>
