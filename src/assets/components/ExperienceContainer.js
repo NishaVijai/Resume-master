@@ -1,10 +1,11 @@
 import React from "react";
+import { v4 as uuidv4 } from "uuid";
 
 export default function ExperienceContainer(props) {
   const imgList = props.links.map((lin) => (
     <a
       className="projects-link projects-link-title"
-      key={lin.id}
+      key={uuidv4()}
       href={lin.projLink}
       target="_blank"
       rel="noopener  noreferrer"
@@ -22,7 +23,7 @@ export default function ExperienceContainer(props) {
   ));
 
   const descriptionContainer = props.description.map((desc) => (
-    <li key={desc.id}>
+    <li key={uuidv4()}>
       {desc.des}
     </li>
   ));

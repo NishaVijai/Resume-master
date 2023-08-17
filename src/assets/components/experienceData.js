@@ -6,7 +6,54 @@ import filarkivLinkImage from "../images/links-line.svg";
 
 const expData = [
   {
-    id: 1,
+    date: "August 2023 - Ongoing",
+    title: "Front-end web developer Intern",
+    project: "Emographics",
+    dataTitle: "Emographics website link",
+    compLink: "https://emographics.dk/emologic-saas/",
+    description: [
+      {
+        des: "Building new features for emologic web app under development",
+      },
+      {
+        des: "React, TypeScript, Tailwind",
+      },
+    ],
+    links: [
+      {
+        projLink: "https://emographics.dk/emologic-saas/",
+        projImgLink: filarkivLinkImage,
+        altText: "Emographics website link",
+        imgTitle: "Emographics website link",
+        linkName: "Emographics website link",
+      },
+    ],
+  },
+  {
+    date: "July 2023 - Ongoing",
+    title: "Ruby on Rails developer Intern",
+    project: "MakeItGoodAgain(MIGA)",
+    dataTitle: "MakeItGoodAgain(MIGA) website link",
+    compLink: "https://www.makeitgoodagain.dk/",
+    description: [
+      {
+        des: "Building new features (UI) for MIGA using Ruby on Rails, slim and CoffeeScript",
+      },
+      {
+        des: "Ruby on Rails, slim, CoffeeScript",
+      },
+    ],
+    links: [
+      {
+        projLink: "https://www.makeitgoodagain.dk/",
+        projImgLink: filarkivLinkImage,
+        altText: "MakeItGoodAgain(MIGA) website link",
+        imgTitle: "MakeItGoodAgain(MIGA) website link",
+        linkName: "MakeItGoodAgain(MIGA) website link",
+      },
+    ],
+  },
+  {
     date: "October 2021 - August 2022",
     title: "Front-end web developer",
     project: "JO Informatik - Helsingør",
@@ -14,17 +61,14 @@ const expData = [
     compLink: "https://www.jo-informatik.dk/om-jo-informatik/",
     description: [
       {
-        id: 1,
         des: "Public FilArkiv - CSS, WCAG - Web Accessibility",
       },
       {
-        id: 2,
         des: "Blazor components, SCSS, C#",
       },
     ],
     links: [
       {
-        id: 1,
         projLink: "https://public.filarkiv.dk/",
         projImgLink: filarkivLinkImage,
         altText: "Public FilArkiv Link",
@@ -34,7 +78,6 @@ const expData = [
     ],
   },
   {
-    id: 2,
     date: "September 2020 - October 2021",
     title: "Front-end web developer",
     project: "JO Informatik - Helsingør",
@@ -42,21 +85,17 @@ const expData = [
     compLink: "https://www.jo-informatik.dk/om-jo-informatik/",
     description: [
       {
-        id: 1,
         des: "QGIS Python plugin using QT Designer and Python",
       },
       {
-        id: 2,
         des: "Kortkomponent using HTML, CSS, Javascript",
       },
       {
-        id: 3,
         des: "Vue Kortkomponent using Vue, Typescript",
       },
     ],
     links: [
       {
-        id: 1,
         projLink: "https://github.com/JO-Informatik-ApS/FlyFotosDK4QGIS",
         projImgLink: gitHubImage,
         altText: "GitHub repository link of FlyFotos Project",
@@ -66,7 +105,6 @@ const expData = [
     ],
   },
   {
-    id: 3,
     date: "October 2019 - November 2019",
     title: "front-end web developer",
     project: "chingu-voyage 12",
@@ -74,21 +112,17 @@ const expData = [
     compLink: "https://chingu.io/",
     description: [
       {
-        id: 1,
         des: "Built a cloned vaersgo single page website using HTML,CSS and React",
       },
       {
-        id: 2,
         des: "It is a ecommerce website, which can be used to purchase home appliances",
       },
       {
-        id: 3,
         des: "Learned to use lazy loading for the image heavy site like this and used Grid layout and practiced to host this site using Netlify",
       },
     ],
     links: [
       {
-        id: 1,
         projLink: "https://github.com/chingu-voyages/v12-solo-NishaVijai",
         projImgLink: gitHubImage,
         altText: "GitHub repository link of v12-solo project",
@@ -96,7 +130,6 @@ const expData = [
         linkName: "GitHub Repo Link",
       },
       {
-        id: 2,
         projLink: "https://vaersgo.netlify.com/",
         projImgLink: netlifyImage,
         altText: "Cloned-Værsgo website hosted in Netlify",
@@ -106,7 +139,6 @@ const expData = [
     ],
   },
   {
-    id: 4,
     date: "September 2019 - October 2019",
     title: "front-end web developer",
     project: "chingu-voyage 11",
@@ -114,17 +146,14 @@ const expData = [
     compLink: "https://chingu.io/",
     description: [
       {
-        id: 1,
         des: "Built a cloned kickstarter single page website using HTML,CSS and React",
       },
       {
-        id: 2,
         des: "Applied previous projects React knowledge to finish this solo project and hosted the site using Heroku",
       },
     ],
     links: [
       {
-        id: 1,
         projLink: "https://github.com/chingu-voyages/v11-solo-NishaVijai",
         projImgLink: gitHubImage,
         altText: "GitHub repository link of v11-solo project",
@@ -132,7 +161,6 @@ const expData = [
         linkName: "GitHub Repo Link",
       },
       {
-        id: 2,
         projLink: "https://clonedkickstarter.netlify.app/",
         projImgLink: netlifyImage,
         altText: "Cloned-Kickstarter website hosted in Netlify",
@@ -142,7 +170,6 @@ const expData = [
     ],
   },
   {
-    id: 5,
     date: "June 2019 - July 2019",
     title: "front-end web developer",
     project: "chingu-voyage 09 - group project",
@@ -150,23 +177,19 @@ const expData = [
     compLink:
       "https://medium.com/chingu/build-hack-learn-230-developer-projects-from-the-chingu-cohorts-43ef6596447e",
     description: [
-      { id: 1, des: "Group project with two remote team members" },
+      { des: "Group project with two remote team members" },
       {
-        id: 2,
         des: "Built a dynamic web app to showcase shoes using HTML,CSS and React",
       },
       {
-        id: 3,
         des: "We divided the app into different components and used Trello for project management",
       },
       {
-        id: 4,
         des: "Learned React basic and applied the knowledge to build this shoe app and practiced to use Trello and learned to host the site using Heroku",
       },
     ],
     links: [
       {
-        id: 1,
         projLink: "https://github.com/chingu-voyages/v9-toucans-team-14",
         projImgLink: gitHubImage,
         altText: "GitHub repository link of v-09 group project",
@@ -174,7 +197,6 @@ const expData = [
         linkName: "GitHub Repo Link",
       },
       {
-        id: 2,
         projLink: "https://chingu-shoe-project.herokuapp.com/",
         projImgLink: herokuImage,
         altText: "Shoe Web App hosted in Heroku",
@@ -184,7 +206,6 @@ const expData = [
     ],
   },
   {
-    id: 6,
     date: "May 2019",
     title: "front-end web developer",
     project: "chingu-voyage 09 - prework-solo-project",
@@ -193,17 +214,14 @@ const expData = [
       "https://medium.com/chingu/build-hack-learn-230-developer-projects-from-the-chingu-cohorts-43ef6596447e",
     description: [
       {
-        id: 1,
         des: "Built a chrome extension called INITAB using HTML,CSS and JavaScript",
       },
       {
-        id: 2,
         des: "First time experience to build and style an extension and used JavaScript to implement a live clock",
       },
     ],
     links: [
       {
-        id: 1,
         projLink: "https://github.com/NishaVijai/Chingu-09-prework-project",
         projImgLink: gitHubImage,
         altText: "GitHub repository link of Chingu-09 prework solo project",
@@ -211,7 +229,6 @@ const expData = [
         linkName: "GitHub Repo Link",
       },
       {
-        id: 2,
         projLink: "https://nishavijai.github.io/Chingu-09-prework-project/",
         projImgLink: gitHubHostedImage,
         altText: "INITAB extension hosted in Github pages",
@@ -221,7 +238,6 @@ const expData = [
     ],
   },
   {
-    id: 7,
     date: "March 2019 - April 2019",
     title: "front-end web developer",
     project: "chingu-voyage 08 - group project",
@@ -229,22 +245,18 @@ const expData = [
     compLink: "https://chingu.io/",
     description: [
       {
-        id: 1,
         des: "First time experience to work with two remote team members from England and Uganda",
       },
       {
-        id: 2,
         des: "Built a cloned Chingu single page website using HTML, CSS and JavaScript",
       },
-      { id: 3, des: "Used GitHub board to track our tasks" },
+      { des: "Used GitHub board to track our tasks" },
       {
-        id: 4,
         des: "Learned to use gitHub board, shared the workload and completed the project together with my team members",
       },
     ],
     links: [
       {
-        id: 1,
         projLink: "https://github.com/chingu-voyages/v8-toucans-team-09",
         projImgLink: gitHubImage,
         altText: "GitHub repository link of v-08 group project",
@@ -252,7 +264,6 @@ const expData = [
         linkName: "GitHub Repo Link",
       },
       {
-        id: 2,
         projLink: "https://chingu-voyages.github.io/v8-toucans-team-09/",
         projImgLink: gitHubHostedImage,
         altText: "Cloned Chingu website hosted in Github pages",
@@ -262,7 +273,6 @@ const expData = [
     ],
   },
   {
-    id: 8,
     date: "February 2019",
     title: "front-end web developer",
     project: "chingu-voyage 08 - prework-solo-project",
@@ -270,17 +280,14 @@ const expData = [
     compLink: "https://chingu.io/",
     description: [
       {
-        id: 1,
         des: "Built TickyBot website using HTML, CSS and vanilla JavaScript",
       },
       {
-        id: 2,
         des: "Learned to use simple vanilla javaScript and media queries",
       },
     ],
     links: [
       {
-        id: 1,
         projLink: "https://github.com/NishaVijai/pre-work-solo-project",
         projImgLink: gitHubImage,
         altText: "GitHub repository link of v-08 prework solo project",
@@ -288,7 +295,6 @@ const expData = [
         linkName: "GitHub Repo Link",
       },
       {
-        id: 2,
         projLink: "https://nishavijai.github.io/pre-work-solo-project/",
         projImgLink: gitHubHostedImage,
         altText: "TickyBot landing page hosted in Github pages",

@@ -1,8 +1,9 @@
 import React from 'react';
+import { v4 as uuidv4 } from "uuid";
 
 export default function ResumeLeftLang(props) {
 	const languagesContainer = props.languages.map((lan) => (
-		<p key={lan.id}>{lan.lang}</p>
+		<p key={uuidv4()}>{lan.lang}</p>
 	));
 	return (
 		<React.Fragment>

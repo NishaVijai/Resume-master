@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import EducationContainer from "./EducationContainer";
 import educationData from "./educationData";
+import { v4 as uuidv4 } from "uuid";
 
 export default class ResumeRightEducation extends Component {
   render() {
     const educationComponent = educationData.map((data) => (
       <EducationContainer
-        key={data.id}
+        key={uuidv4()}
         date={data.date}
         name={data.name}
         education={data.education}
