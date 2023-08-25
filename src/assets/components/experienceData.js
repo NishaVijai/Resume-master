@@ -30,10 +30,10 @@ const expData = [
     ],
   },
   {
-    date: "July 2023 - Ongoing",
+    date: "July 2023 - August 2023",
     title: "Ruby on Rails developer Intern",
-    project: "MakeItGoodAgain(MIGA)",
-    dataTitle: "MakeItGoodAgain(MIGA) website link",
+    project: "MakeItGoodAgain (MIGA)",
+    dataTitle: "MakeItGoodAgain (MIGA) website link",
     compLink: "https://www.makeitgoodagain.dk/",
     description: [
       {
