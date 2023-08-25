@@ -47,9 +47,9 @@ const expData = [
       {
         projLink: "https://www.makeitgoodagain.dk/",
         projImgLink: filarkivLinkImage,
-        altText: "MakeItGoodAgain(MIGA) website link",
-        imgTitle: "MakeItGoodAgain(MIGA) website link",
-        linkName: "MakeItGoodAgain(MIGA) website link",
+        altText: "MakeItGoodAgain (MIGA) website link",
+        imgTitle: "MakeItGoodAgain (MIGA) website link",
+        linkName: "MakeItGoodAgain (MIGA) website link",
       },
     ],
   },
