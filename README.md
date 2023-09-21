@@ -4,4 +4,5 @@
 - https://nisha-vijai.netlify.app/
 
 ### Output
-![NishasResumeAug2023](https://github.com/NishaVijai/Resume-master/assets/26595961/42232687-d177-442c-aaeb-b5273fbb9539)
+![NishasResumeSep2023](https://github.com/NishaVijai/Resume-master/assets/26595961/a129b7e0-065a-4040-a48b-96e7cccc69d8)
+
