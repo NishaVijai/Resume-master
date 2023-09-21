@@ -6,7 +6,7 @@ import filarkivLinkImage from "../images/links-line.svg";
 
 const expData = [
   {
-    date: "August 2023 - Ongoing",
+    date: "August 2023 - September 2023",
     title: "Front-end web developer Intern",
     project: "Emographics",
     dataTitle: "Emographics website link",
