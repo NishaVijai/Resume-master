@@ -6,6 +6,143 @@ import filarkivLinkImage from "../images/links-line.svg";
 
 const expData = [
   {
+    date: "November 2023 - December 2023",
+    title: "Design Thinking Workshop",
+    project: "UI/UX design thinking workshop",
+    dataTitle: "ReDI School website link",
+    compLink:
+      "https://www.redi-school.org/",
+    description: [
+      { des: "The workshop was conducted by ReDI School, Denmark and TCS (Tata Consultancy Services), Denmark" },
+      {
+        des: "Group of four students from Denmark as a team, we designed a mobile app called Help4You using Figma. The app is for the users to find a psychologist online based on their preferred languages and timezones",
+      },
+      {
+        des: "Learned wireframing, prototyping using Figma to build a mobile app together as a team",
+      },
+    ],
+    links: [
+      {
+        projLink: "https://www.redi-school.org/",
+        projImgLink: filarkivLinkImage,
+        altText: "ReDI School website link",
+        imgTitle: "ReDI School website link",
+        linkName: "ReDI School website link",
+      },
+    ],
+  },
+  {
+    date: "October 2023 - November 2023",
+    title: "front-end web developer",
+    project: "chingu-voyage v46 - tier 2 - group project",
+    dataTitle: "Chingu.io website link",
+    compLink:
+      "https://chingu.io/",
+    description: [
+      { des: "Group of four developers and one UI/UX designer from Europe" },
+      {
+        des: "We built a React web app called Zest. Using this app users can search recipes by its ingredient name",
+      },
+      {
+        des: "We have implemented responsive design and dark/light theme design",
+      },
+      {
+        des: "We divided the app into small components and used Trello as a project backlog and google docs as a meeting backlog",
+      },
+      {
+        des: "My task was to implement Redux store, header and footer & The project is hosted online using Netlify",
+      },
+    ],
+    links: [
+      {
+        projLink: "https://github.com/chingu-voyages/v46-tier2-team-16",
+        projImgLink: gitHubImage,
+        altText: "GitHub repository link of v-46 tier2 group project",
+        imgTitle: "GitHub Image for v-46 tier2 group project",
+        linkName: "GitHub Repo Link",
+      },
+      {
+        projLink: "https://main--chingu-voyage-v46-tier-2-team-16.netlify.app/",
+        projImgLink: netlifyImage,
+        altText: "Zest Web App hosted in Netlify",
+        imgTitle: "Zest Web App",
+        linkName: "Hosted On",
+      },
+    ],
+  },
+  {
+    date: "October 2023 - November 2023",
+    title: "front-end web developer",
+    project: "chingu-voyage v46 - tier 1 - group project",
+    dataTitle: "Chingu.io website link",
+    compLink:
+      "https://chingu.io/",
+    description: [
+      { des: "Group of three developers and one UI/UX designer from Spain and London" },
+      {
+        des: "We built a web application using Semantic HTML, CSS and JavaScript. The app is called ReciPick, where users can search recipes by its ingredient name",
+      },
+      {
+        des: "We divided the tasks to build this app together & we used Jira as a project backlog and google docs as a meeting backlog",
+      },
+      {
+        des: "My task was to build recipe cards, modals, header and footer & The project is hosted online using Netlify",
+      },
+    ],
+    links: [
+      {
+        projLink: "https://github.com/chingu-voyages/v46-tier1-team-02",
+        projImgLink: gitHubImage,
+        altText: "GitHub repository link of v-46 tier1 group project",
+        imgTitle: "GitHub Image for v-46 tier1 group project",
+        linkName: "GitHub Repo Link",
+      },
+      {
+        projLink: "https://recipick-v46-tier1-team-02.netlify.app/",
+        projImgLink: netlifyImage,
+        altText: "ReciPick Web App hosted in Netlify",
+        imgTitle: "ReciPick Web App",
+        linkName: "Hosted On",
+      },
+    ],
+  },
+  {
+    date: "August 2023 - September 2023",
+    title: "front-end web developer",
+    project: "chingu-voyage v45 - group project",
+    dataTitle: "Chingu.io website link",
+    compLink:
+      "https://chingu.io/",
+    description: [
+      { des: "Group project with four remote team members from Europe" },
+      {
+        des: "We built a react web app called Fireball Meteorite Strikes. This web app is to see meteorite data from NASA database",
+      },
+      {
+        des: "We divided the app into small components and used Trello as a project backlog and google docs as a meeting backlog",
+      },
+      {
+        des: "My task was to build a search component & implement APIContext. APIContext was new for me to learn and implement on this project & we used Netlify to host our project online",
+      },
+    ],
+    links: [
+      {
+        projLink: "https://github.com/chingu-voyages/v45-tier2-team-20",
+        projImgLink: gitHubImage,
+        altText: "GitHub repository link of v-45 group project",
+        imgTitle: "GitHub Image for v-45 group project",
+        linkName: "GitHub Repo Link",
+      },
+      {
+        projLink: "https://fireball-meteorite-strikes-app.netlify.app/",
+        projImgLink: netlifyImage,
+        altText: "Fireball Meteorite Strikes Web App hosted in Netlify",
+        imgTitle: "Fireball Meteorite Strikes Web App",
+        linkName: "Hosted On",
+      },
+    ],
+  },
+  {
     date: "August 2023 - September 2023",
     title: "Front-end web developer Intern",
     project: "Emographics",
@@ -107,7 +244,7 @@ const expData = [
   {
     date: "October 2019 - November 2019",
     title: "front-end web developer",
-    project: "chingu-voyage 12",
+    project: "chingu-voyage 12 - solo project",
     dataTitle: "Chingu.io website link",
     compLink: "https://chingu.io/",
     description: [
@@ -141,7 +278,7 @@ const expData = [
   {
     date: "September 2019 - October 2019",
     title: "front-end web developer",
-    project: "chingu-voyage 11",
+    project: "chingu-voyage 11 - solo project",
     dataTitle: "Chingu.io website link",
     compLink: "https://chingu.io/",
     description: [
