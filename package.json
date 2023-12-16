@@ -10,7 +10,7 @@
     "minimist": "^1.2.5",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.7.16",
     "react-uuid": "^2.0.0"
   },
