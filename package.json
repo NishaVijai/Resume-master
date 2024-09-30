@@ -11,9 +11,10 @@
     "postcss": "^8.4.47",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "^3.4.4",
+    "react-scripts": "^3.0.1",
     "react-scroll": "^1.7.16",
-    "react-uuid": "^2.0.0"
+    "react-uuid": "^2.0.0",
+    "ws": "^8.18.0"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
