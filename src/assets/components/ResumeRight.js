@@ -2,92 +2,69 @@ import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import ResumeRightProjects from './ResumeRightProjects';
-import ResumeRightEducation from './ResumeRightEducation';
 
 import './resumeRight.css';
 
 export default class ResumeRight extends Component {
-	componentDidMount() {
-		const showOnPx = 100;
-		const scrollContainer = () => {
-			return document.documentElement || document.body;
-		  };
-		const getTopButton = document.getElementById("to-top-button-id");
+  componentDidMount() {
+    const showOnPx = 100;
+    const scrollContainer = () => {
+      return document.documentElement || document.body;
+    };
+    const getTopButton = document.getElementById("to-top-button-id");
 
-		window.addEventListener(
-		  "scroll",
-		  function(event) {
-			if (scrollContainer().scrollTop > showOnPx) {
-				getTopButton.classList.remove("hide");
-			}
-			else {
-				getTopButton.classList.add("hide");
-			}
-		  },
-		  false
-		);
-	  }
+    window.addEventListener(
+      "scroll",
+      function (event) {
+        if (scrollContainer().scrollTop > showOnPx) {
+          getTopButton.classList.remove("hide");
+        }
+        else {
+          getTopButton.classList.add("hide");
+        }
+      },
+      false
+    );
+  }
 
-	render() {
-		const scrollToTop = () => {
-			scroll.scrollTo(0, 0);
-		};
+  render() {
+    const scrollToTop = () => {
+      scroll.scrollTo(0, 0);
+    };
 
-		const scrollToExperience = () => {
-			scroll.scrollTo(200);
-		};
+    const scrollToExperience = () => {
+      scroll.scrollTo(200);
+    };
 
-		const scrollToEducation = () => {
-			scroll.scrollTo(1150);	
-		};
+    return (
+      <section id="resume-right-container">
+        <nav className="nav-item">
+          <Link
+            aria-label="Experience section"
+            data-title="Scroll to Experience Section"
+            tabIndex="0"
+            className="link-item link-item-experience"
+            onKeyPress={scrollToExperience}
+            activeClass="active"
+            to="second"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}
+          >
+            Experience
+          </Link>
+        </nav>
 
-		return (
-			<section id="resume-right-container">
-				<nav className="nav-item">
-					<Link
-						aria-label="Experience section"
-						data-title="Scroll to Experience Section"
-						tabIndex="0"
-						className="link-item link-item-experience"
-						onKeyPress={scrollToExperience}
-						activeClass="active"
-						to="second"
-						spy={true}
-						smooth={true}
-						offset={0}
-						duration={1000}
-					>
-						Experience
-					</Link>
+        <article className="right-side-container">
+          <ResumeRightProjects />
 
-					<Link
-						aria-label="Education section"
-						data-title="Scroll to Education Section"
-						tabIndex="0"
-						className="link-item link-item-education"
-						onKeyPress={scrollToEducation}
-						activeClass="active"
-						to="third"
-						spy={true}
-						smooth={true}
-						offset={0}
-						duration={1000}
-					>
-						Education
-					</Link>
-				</nav>
-
-				<article className="right-side-container">
-					<ResumeRightProjects />
-
-					<ResumeRightEducation />
-
-					<button id="to-top-button-id" aria-label="Go to top of the page" tabIndex="0" data-title="Go to top" className="to-top-button hide" onKeyPress={scrollToTop} onClick={scrollToTop}>
-						{' '}
-						Top{' '}
-					</button>
-				</article>
-			</section>
-		);
-	}
+          <button id="to-top-button-id" aria-label="Go to top of the page" tabIndex="0" data-title="Go to top" className="to-top-button hide" onKeyPress={scrollToTop} onClick={scrollToTop}>
+            {' '}
+            Top{' '}
+          </button>
+        </article>
+      </section>
+    );
+  }
 }

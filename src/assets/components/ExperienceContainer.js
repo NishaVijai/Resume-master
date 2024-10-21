@@ -9,7 +9,6 @@ export default function ExperienceContainer(props) {
       href={lin.projLink}
       target="_blank"
       rel="noopener  noreferrer"
-      // title={lin.altText}
       data-title={lin.altText}
     >
       {lin.linkName}{" "}

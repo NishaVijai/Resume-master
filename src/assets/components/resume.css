@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
 
 :root {
@@ -20,7 +18,6 @@
   --light-left: rgb(1, 51, 114);
   --light-left-h2: #760246;
   --left-bg: rgb(25, 49, 94);
-  /* --light-left-bg: rgba(107, 150, 154, 0.3); */
   --light-left-bg: rgba(107, 150, 154, 1);
   --left-color: rgb(238, 237, 237);
   --left-h2: rgb(230, 117, 25);
@@ -62,9 +59,6 @@ html {
 }
 
 body {
-  /* font-family: 'Questrial' , 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-        'Droid Sans', 'Helvetica Neue', sans-serif; */
-  /* font-family: 'Roboto Mono', monospace; */
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -169,7 +163,6 @@ main {
 }
 
 .link-item-experience::before,
-.link-item-education::before,
 #to-top-button-id::before,
 .address-link::before,
 .projects-link-title::before,
@@ -190,11 +183,6 @@ main {
 
 .link-item-experience::before {
   top: 1em;
-  left: -17em;
-}
-
-.link-item-education::before {
-  top: 5em;
   left: -17em;
 }
 
@@ -227,7 +215,6 @@ main {
 }
 
 .link-item-experience:hover::before,
-.link-item-education:hover::before,
 #to-top-button-id:hover::before,
 .address-link:hover::before,
 .projects-link-title:hover::before,
@@ -315,8 +302,7 @@ main {
   }
 
   header h1,
-  .projects p:nth-of-type(1),
-  .degrees p:nth-of-type(1) {
+  .projects p:nth-of-type(1) {
     color: var(--left-h2);
   }
 
@@ -337,7 +323,6 @@ main {
 
   #first a,
   .project-description li,
-  .education-description p,
   .projects-container .projects a {
     color: var(--dark-a-li-p-color);
   }
@@ -422,15 +407,10 @@ main {
     display: none;
   }
 
-  .projects-container,
-  .education-container {
+  .projects-container {
     display: flex;
     flex-direction: column;
     padding: var(--padding-5-px);
-  }
-
-  .degrees p:nth-of-type(2) {
-    font-size: 1rem;
   }
 }
 /* media query for devices less than or equal to 700px - end */

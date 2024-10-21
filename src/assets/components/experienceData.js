@@ -3,8 +3,74 @@ import gitHubHostedImage from "../images/github-hosted.svg";
 import netlifyImage from "../images/netlify.svg";
 import herokuImage from "../images/heroku.svg";
 import filarkivLinkImage from "../images/links-line.svg";
+import onRenderLogo from "../images/onRenderLogo.png";
 
 const expData = [
+  {
+    date: "September 2024 - December 2024",
+    title: "Front-end Web Development Course",
+    project: "ReDI School denmark",
+    dataTitle: "ReDI School website link",
+    compLink:
+      "https://www.redi-school.org/",
+    description: [
+      { des: "Frontend Web Development Course is organized by ReDI School, Denmark" },
+      // {
+      //   des: "Learning JavaScript for web development",
+      // },
+      // {
+      //   des: "Final project using JavaScript is on progress",
+      // },
+    ],
+    links: [
+      {
+        projLink: "https://www.redi-school.org/",
+        projImgLink: filarkivLinkImage,
+        altText: "ReDI School website link",
+        imgTitle: "ReDI School website link",
+        linkName: "ReDI School website link",
+      },
+    ],
+  },
+  {
+    date: "July 2024 - October 2024",
+    title: "front-end web developer",
+    project: "chingu-voyage v50 & v51 - tier 3 - group project",
+    dataTitle: "Chingu.io website link",
+    compLink:
+      "https://chingu.io/",
+    description: [
+      { des: "Group of eight developers and one UI/UX designer from USA and Europe" },
+      {
+        des: "We built a full-stack React web app called Save Bees. Using this app users can help save bees to save our future generations",
+      },
+      {
+        des: "We have also implemented responsive web app with dark/light theme design",
+      },
+      {
+        des: "Our entire app is divided into small components. We used JIRA board to assign tickets to our team members, track our progress and to maintain backlog",
+      },
+      {
+        des: "I worked on setting up the basic layout using tailwind CSS, created reusable components for the team to build our Bee web app. I have also worked on setting up Redux store, RTK query on our Bee app project. We have used onrender.com to host our project online",
+      },
+    ],
+    links: [
+      {
+        projLink: "https://github.com/chingu-voyages/v50-tier3-team-28",
+        projImgLink: gitHubImage,
+        altText: "GitHub repository link of v-50 & v-51 tier3 group project",
+        imgTitle: "GitHub Image for v-50 & v-51 tier3 group project",
+        linkName: "GitHub Repo Link",
+      },
+      {
+        projLink: "https://v50-tier3-team-28.onrender.com/",
+        projImgLink: onRenderLogo,
+        altText: "Bee Web App hosted on onrender.com",
+        imgTitle: "Bee Web App",
+        linkName: "Hosted On",
+      },
+    ],
+  },
   {
     date: "November 2023 - December 2023",
     title: "Design Thinking Workshop",
