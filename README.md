@@ -3,5 +3,5 @@
 ## Preview link
 - https://nisha-vijai.netlify.app/
 
-### Output
-![NishasResumeDec2023](https://github.com/NishaVijai/Resume-master/assets/26595961/a4018bbe-8249-40b2-998a-7221f20f3421)
+### Screenshot
+![Nisha's Resume](https://github.com/user-attachments/assets/d11e951c-ca4c-42e1-b667-dc580a66abba)
