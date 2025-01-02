@@ -4,8 +4,7 @@
 - https://nisha-vijai.netlify.app/
 
 ### Screenshot
-![Nisha's Resume](https://github.com/user-attachments/assets/d11e951c-ca4c-42e1-b667-dc580a66abba)
-
+![NishasResumeJan2025](https://github.com/user-attachments/assets/c8756589-e98c-4934-8a5a-3aabea24baba)
 
 ## Local (development)
 npm install
