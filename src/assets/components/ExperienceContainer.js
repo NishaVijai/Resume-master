@@ -16,7 +16,7 @@ export default function ExperienceContainer(props) {
         src={lin.projImgLink}
         alt={lin.altText}
         loading="lazy"
-        title={lin.imgTitle}
+        data-title={lin.imgTitle}
       />
     </a>
   ));

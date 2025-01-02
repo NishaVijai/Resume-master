@@ -15,20 +15,24 @@ const expData = [
       "https://www.redi-school.org/",
     description: [
       { des: "Frontend Web Development Course is organized by ReDI School, Denmark" },
-      // {
-      //   des: "Learning JavaScript for web development",
-      // },
-      // {
-      //   des: "Final project using JavaScript is on progress",
-      // },
+      {
+        des: "movie-details-api-search-app (solo final project) using Vanilla JavaScript",
+      },
     ],
     links: [
       {
-        projLink: "https://www.redi-school.org/",
-        projImgLink: filarkivLinkImage,
-        altText: "ReDI School website link",
-        imgTitle: "ReDI School website link",
-        linkName: "ReDI School website link",
+        projLink: "https://github.com/NishaVijai/redi-school-fe-fall-2024-final-project-movie-app",
+        projImgLink: gitHubImage,
+        altText: "GitHub repository link of movie-details-api-search-app project",
+        imgTitle: "GitHub Image for movie-details-api-search-app project",
+        linkName: "GitHub Repo Link",
+      },
+      {
+        projLink: "https://movie-details-api-search.netlify.app/",
+        projImgLink: netlifyImage,
+        altText: "movie-details-api-search-app hosted on Netlify",
+        imgTitle: "movie-details-api-search-app App",
+        linkName: "Hosted On",
       },
     ],
   },
@@ -130,7 +134,7 @@ const expData = [
       {
         projLink: "https://main--chingu-voyage-v46-tier-2-team-16.netlify.app/",
         projImgLink: netlifyImage,
-        altText: "Zest Web App hosted in Netlify",
+        altText: "Zest Web App hosted on Netlify",
         imgTitle: "Zest Web App",
         linkName: "Hosted On",
       },
@@ -202,7 +206,7 @@ const expData = [
       {
         projLink: "https://fireball-meteorite-strikes-app.netlify.app/",
         projImgLink: netlifyImage,
-        altText: "Fireball Meteorite Strikes Web App hosted in Netlify",
+        altText: "Fireball Meteorite Strikes Web App hosted on Netlify",
         imgTitle: "Fireball Meteorite Strikes Web App",
         linkName: "Hosted On",
       },
@@ -335,7 +339,7 @@ const expData = [
       {
         projLink: "https://vaersgo.netlify.com/",
         projImgLink: netlifyImage,
-        altText: "Cloned-Værsgo website hosted in Netlify",
+        altText: "Cloned-Værsgo website hosted on Netlify",
         imgTitle: "Netlify Image for Cloned-Værsgo website",
         linkName: "Hosted On",
       },
@@ -366,7 +370,7 @@ const expData = [
       {
         projLink: "https://clonedkickstarter.netlify.app/",
         projImgLink: netlifyImage,
-        altText: "Cloned-Kickstarter website hosted in Netlify",
+        altText: "Cloned-Kickstarter website hosted on Netlify",
         imgTitle: "Netlify Image for Cloned-Kickstarter website",
         linkName: "Hosted On",
       },
