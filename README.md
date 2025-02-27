@@ -4,7 +4,7 @@
 - https://nisha-vijai.netlify.app/
 
 ### Screenshot
-![NishasResumeJan2025](https://github.com/user-attachments/assets/c8756589-e98c-4934-8a5a-3aabea24baba)
+![2025-02-27Nisha's Resume](https://github.com/user-attachments/assets/e6d7e301-f7b4-4f0b-935f-48474916010f)
 
 ## Local (development)
 
