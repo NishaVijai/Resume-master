@@ -40,6 +40,8 @@ export default function ExperienceContainer(props) {
       </section>
 
       <section className="project-description">
+        <h4>{props.descriptionTitle}</h4>
+        <p>{props.projectSummary}</p>
         <ul>
           {descriptionContainer}
           <li>{imgList}</li>

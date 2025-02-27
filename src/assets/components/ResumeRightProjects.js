@@ -10,9 +10,11 @@ export default class ResumeRightProjects extends Component {
         key={uuidv4()}
         date={exp.date}
         title={exp.title}
+        project={exp.project}
         dataTitle={exp.dataTitle}
         compLink={exp.compLink}
-        project={exp.project}
+        descriptionTitle={exp.descriptionTitle}
+        projectSummary={exp.projectSummary}
         description={exp.description}
         links={exp.links}
       />

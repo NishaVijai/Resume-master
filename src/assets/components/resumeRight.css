@@ -82,6 +82,15 @@ h3 {
   margin: 0 var(--padding-10-px);
 }
 
+.project-description h4 {
+  color: var(--dark-a-li-p-color);
+  font-size: 1.1rem;
+}
+
+.project-description p {
+  font-size: 0.9rem;
+}
+
 .project-description li {
   margin-top: var(--padding-5-px);
 }

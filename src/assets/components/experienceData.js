@@ -9,14 +9,15 @@ const expData = [
   {
     date: "September 2024 - December 2024",
     title: "Front-end Web Development Course",
-    project: "ReDI School denmark",
+    project: "ReDI School denmark - solo project",
     dataTitle: "ReDI School website link",
-    compLink:
-      "https://www.redi-school.org/",
+    compLink: "https://www.redi-school.org/",
+    descriptionTitle: "Movie Details API Search App",
+    projectSummary: "Frontend Web Development Course – ReDI School, Denmark",
     description: [
-      { des: "Frontend Web Development Course is organized by ReDI School, Denmark" },
+      { des: "Completed an intensive frontend development course focused on modern web technologies." },
       {
-        des: "movie-details-api-search-app (solo final project) using Vanilla JavaScript",
+        des: "Built Movie Details API Search App as a solo final project using Vanilla JavaScript, demonstrating proficiency in API integration, DOM manipulation, and responsive design.",
       },
     ],
     links: [
@@ -41,21 +42,22 @@ const expData = [
     title: "front-end web developer",
     project: "chingu-voyage v50 & v51 - tier 3 - group project",
     dataTitle: "Chingu.io website link",
-    compLink:
-      "https://chingu.io/",
+    compLink: "https://chingu.io/",
+    descriptionTitle: "React Web App – Bee Saving App (Collaborative Project)",
+    projectSummary: "Collaborated with a team of eight developers and one UI/UX designer across the USA and Europe to build Save Bees, a full-stack React web application aimed at promoting bee conservation.",
     description: [
-      { des: "Group of eight developers and one UI/UX designer from USA and Europe" },
+      { des: "Developed a responsive web application with dark/light theme design for enhanced user experience." },
       {
-        des: "We built a full-stack React web app called Save Bees. Using this app users can help save bees to save our future generations",
+        des: "Built reusable React components using Tailwind CSS, ensuring consistency and scalability across the application.",
       },
       {
-        des: "We have also implemented responsive web app with dark/light theme design",
+        des: "Implemented Redux store and RTK Query for efficient state management and API interactions.",
       },
       {
-        des: "Our entire app is divided into small components. We used JIRA board to assign tickets to our team members, track our progress and to maintain backlog",
+        des: "Utilized JIRA for sprint planning, ticket assignments, backlog management, and progress tracking.",
       },
       {
-        des: "I worked on setting up the basic layout using tailwind CSS, created reusable components for the team to build our Bee web app. I have also worked on setting up Redux store, RTK query on our Bee app project. We have used onrender.com to host our project online",
+        des: "Deployed the application on onrender.com for seamless accessibility.",
       },
     ],
     links: [
@@ -80,15 +82,16 @@ const expData = [
     title: "Design Thinking Workshop",
     project: "UI/UX design thinking workshop",
     dataTitle: "ReDI School website link",
-    compLink:
-      "https://www.redi-school.org/",
+    compLink: "https://www.redi-school.org/",
+    descriptionTitle: "Collaborative Project",
+    projectSummary: "UI/UX Workshop – ReDI School & TCS (Tata Consultancy Services), Denmark",
     description: [
-      { des: "The workshop was conducted by ReDI School, Denmark and TCS (Tata Consultancy Services), Denmark" },
+      { des: "Collaborated with a team of four students to design Help4You, a mobile app that connects users with psychologists based on preferred languages and time zones." },
       {
-        des: "Group of four students from Denmark as a team, we designed a mobile app called Help4You using Figma. The app is for the users to find a psychologist online based on their preferred languages and timezones",
+        des: "Utilized Figma to create wireframes, prototypes, and interactive designs, ensuring a user-friendly experience.",
       },
       {
-        des: "Learned wireframing, prototyping using Figma to build a mobile app together as a team",
+        des: "Gained hands-on experience in UI/UX design, team collaboration, and mobile app prototyping.",
       },
     ],
     links: [
@@ -106,21 +109,22 @@ const expData = [
     title: "front-end web developer",
     project: "chingu-voyage v46 - tier 2 - group project",
     dataTitle: "Chingu.io website link",
-    compLink:
-      "https://chingu.io/",
+    compLink: "https://chingu.io/",
+    descriptionTitle: "React Web App – Zest",
+    projectSummary: "Collaborative Project | 4 Developers & 1 UI/UX Designer | Hosted on Netlify",
     description: [
-      { des: "Group of four developers and one UI/UX designer from Europe" },
+      { des: "Developed a React web application that allows users to search recipes by ingredient name." },
       {
-        des: "We built a React web app called Zest. Using this app users can search recipes by its ingredient name",
+        des: "Implemented a responsive design with dark/light theme for an enhanced user experience.",
       },
       {
-        des: "We have implemented responsive design and dark/light theme design",
+        des: "Built and managed the Redux store for efficient state management.",
       },
       {
-        des: "We divided the app into small components and used Trello as a project backlog and google docs as a meeting backlog",
+        des: "Developed header and footer components, ensuring a consistent layout across the app.",
       },
       {
-        des: "My task was to implement Redux store, header and footer & The project is hosted online using Netlify",
+        des: "Utilized Trello for backlog management and Google Docs for team meeting documentation.",
       },
     ],
     links: [
@@ -145,18 +149,19 @@ const expData = [
     title: "front-end web developer",
     project: "chingu-voyage v46 - tier 1 - group project",
     dataTitle: "Chingu.io website link",
-    compLink:
-      "https://chingu.io/",
+    compLink: "https://chingu.io/",
+    descriptionTitle: "ReciPick – Web Application",
+    projectSummary: "Collaborative Project | 3 Developers & 1 UI/UX Designer | Hosted on Netlify",
     description: [
-      { des: "Group of three developers and one UI/UX designer from Spain and London" },
+      { des: "Developed ReciPick, a web application that allows users to search recipes by ingredient name using Semantic HTML, CSS, and JavaScript." },
       {
-        des: "We built a web application using Semantic HTML, CSS and JavaScript. The app is called ReciPick, where users can search recipes by its ingredient name",
+        des: "Built recipe cards, modals, header, and footer, ensuring a seamless user experience.",
       },
       {
-        des: "We divided the tasks to build this app together & we used Jira as a project backlog and google docs as a meeting backlog",
+        des: "Implemented responsive design for accessibility across devices.",
       },
       {
-        des: "My task was to build recipe cards, modals, header and footer & The project is hosted online using Netlify",
+        des: "Utilized JIRA for project backlog management and Google Docs for team meeting documentation.",
       },
     ],
     links: [
@@ -181,18 +186,19 @@ const expData = [
     title: "front-end web developer",
     project: "chingu-voyage v45 - group project",
     dataTitle: "Chingu.io website link",
-    compLink:
-      "https://chingu.io/",
+    compLink: "https://chingu.io/",
+    descriptionTitle: "Fireball Meteorite Strikes – React Web App",
+    projectSummary: "Collaborative Project | 4 Remote Team Members | Hosted on Netlify",
     description: [
-      { des: "Group project with four remote team members from Europe" },
+      { des: "Developed a React web application that visualizes meteorite data from the NASA database." },
       {
-        des: "We built a react web app called Fireball Meteorite Strikes. This web app is to see meteorite data from NASA database",
+        des: "Built a search component to enhance user experience and streamline data retrieval.",
       },
       {
-        des: "We divided the app into small components and used Trello as a project backlog and google docs as a meeting backlog",
+        des: "Implemented APIContext for efficient data management and state handling, gaining hands-on experience with a new technology.",
       },
       {
-        des: "My task was to build a search component & implement APIContext. APIContext was new for me to learn and implement on this project & we used Netlify to host our project online",
+        des: "Utilized Trello for backlog management and Google Docs for team documentation and collaboration.",
       },
     ],
     links: [
@@ -218,12 +224,17 @@ const expData = [
     project: "Emographics",
     dataTitle: "Emographics website link",
     compLink: "https://emographics.dk/emologic-saas/",
+    descriptionTitle: "Emologic Web App – Feature Development",
+    projectSummary: "Hands-on Learning | React, TypeScript, Tailwind",
     description: [
       {
-        des: "Building new features for emologic web app under development",
+        des: "Gained practical experience by building new features for the Emologic web app under development.",
       },
       {
-        des: "React, TypeScript, Tailwind",
+        des: "Worked with React, TypeScript, and Tailwind CSS to implement scalable and maintainable UI components.",
+      },
+      {
+        des: "Enhanced frontend performance and responsiveness through efficient styling and component structuring.",
       },
     ],
     links: [
@@ -242,12 +253,17 @@ const expData = [
     project: "MakeItGoodAgain (MIGA)",
     dataTitle: "MakeItGoodAgain (MIGA) website link",
     compLink: "https://www.makeitgoodagain.dk/",
+    descriptionTitle: "MIGA Web App – UI Feature Development",
+    projectSummary: "Hands-on Learning | Ruby on Rails, Slim, CoffeeScript",
     description: [
       {
-        des: "Building new features (UI) for MIGA using Ruby on Rails, slim and CoffeeScript",
+        des: "Developed new UI features for the MIGA web application using Ruby on Rails, Slim, and CoffeeScript.",
       },
       {
-        des: "Ruby on Rails, slim, CoffeeScript",
+        des: "Gained hands-on experience in Rails-based frontend development, enhancing UI components for a seamless user experience.",
+      },
+      {
+        des: "Learned and applied Ruby on Rails, Slim, and CoffeeScript, adapting to new technologies while working on the project.",
       },
     ],
     links: [
@@ -266,12 +282,20 @@ const expData = [
     project: "JO Informatik - Helsingør",
     dataTitle: "JO Informatik website link",
     compLink: "https://www.jo-informatik.dk/om-jo-informatik/",
+    descriptionTitle: "Public FilArkiv – Web Accessibility & Frontend Development",
+    projectSummary: "CSS, WCAG, C#, Blazor, SCSS, WordPress, Umbraco",
     description: [
       {
-        des: "Public FilArkiv - CSS, WCAG - Web Accessibility",
+        des: "Enhanced Web Accessibility by learning and implementing WCAG standards to improve usability and compliance.",
       },
       {
-        des: "Blazor components, SCSS, C#",
+        des: "Worked on Blazor projects, learning C# to build and update Razor components for improved UI functionality.",
+      },
+      {
+        des: "Updated legacy projects by applying SCSS for modern styling improvements.",
+      },
+      {
+        des: "Gained experience in CMS platforms, learning and updating projects in WordPress and Umbraco.",
       },
     ],
     links: [
@@ -290,15 +314,17 @@ const expData = [
     project: "JO Informatik - Helsingør",
     dataTitle: "JO Informatik website link",
     compLink: "https://www.jo-informatik.dk/om-jo-informatik/",
+    descriptionTitle: "Geospatial & Frontend Development",
+    projectSummary: "QGIS, Python, Qt Designer, Vue, TypeScript, React, HTML, CSS, JavaScript",
     description: [
       {
-        des: "QGIS Python plugin using QT Designer and Python",
+        des: "Developed a QGIS Python plugin using Qt Designer and Python, enhancing geospatial data processing capabilities.",
       },
       {
-        des: "Kortkomponent using HTML, CSS, Javascript",
+        des: "Learned and implemented Vue.js & TypeScript to build an interactive map component, leveraging prior experience with React for a smooth transition.",
       },
       {
-        des: "Vue Kortkomponent using Vue, Typescript",
+        des: "Worked on multiple frontend projects, utilizing HTML, CSS, and Vanilla JavaScript to improve UI functionality and user experience.",
       },
     ],
     links: [
@@ -317,15 +343,20 @@ const expData = [
     project: "chingu-voyage 12 - solo project",
     dataTitle: "Chingu.io website link",
     compLink: "https://chingu.io/",
+    descriptionTitle: "Vaersgo Clone – E-commerce Single Page Website",
+    projectSummary: "HTML, CSS, React, Lazy Loading, Grid Layout, Netlify",
     description: [
       {
-        des: "Built a cloned vaersgo single page website using HTML,CSS and React",
+        des: "Developed a cloned version of the Vaersgo e-commerce website using HTML, CSS, and React, enabling users to browse and purchase home appliances.",
       },
       {
-        des: "It is a ecommerce website, which can be used to purchase home appliances",
+        des: "Optimized performance by implementing lazy loading for image-heavy content, improving page load speed.",
       },
       {
-        des: "Learned to use lazy loading for the image heavy site like this and used Grid layout and practiced to host this site using Netlify",
+        des: "Designed a responsive layout using CSS Grid, ensuring a seamless user experience across devices.",
+      },
+      {
+        des: "Practiced deployment techniques, successfully hosting the project on Netlify.",
       },
     ],
     links: [
@@ -351,12 +382,17 @@ const expData = [
     project: "chingu-voyage 11 - solo project",
     dataTitle: "Chingu.io website link",
     compLink: "https://chingu.io/",
+    descriptionTitle: "Kickstarter Clone – Single Page Web App",
+    projectSummary: "HTML, CSS, React, Heroku",
     description: [
       {
-        des: "Built a cloned kickstarter single page website using HTML,CSS and React",
+        des: "Developed a cloned version of the Kickstarter website using HTML, CSS, and React, showcasing crowdfunding platform functionality.",
       },
       {
-        des: "Applied previous projects React knowledge to finish this solo project and hosted the site using Heroku",
+        des: "Leveraged previous React experience to efficiently build and structure components for a seamless user experience.",
+      },
+      {
+        des: "Deployed the project on Heroku, gaining hands-on experience with cloud hosting and deployment.",
       },
     ],
     links: [
@@ -383,16 +419,21 @@ const expData = [
     dataTitle: "Chingu.io website link",
     compLink:
       "https://medium.com/chingu/build-hack-learn-230-developer-projects-from-the-chingu-cohorts-43ef6596447e",
+    descriptionTitle: "Shoe Showcase Web App",
+    projectSummary: "Collaborative Project | HTML, CSS, React, Trello, Heroku",
     description: [
-      { des: "Group project with two remote team members" },
+      { des: "Developed a dynamic web app to showcase shoes using HTML, CSS, and React, collaborating with two remote team members." },
       {
-        des: "Built a dynamic web app to showcase shoes using HTML,CSS and React",
+        des: "Structured the app into reusable components, ensuring maintainability and scalability.",
       },
       {
-        des: "We divided the app into different components and used Trello for project management",
+        des: "Utilized Trello for project management, tracking tasks and progress efficiently.",
       },
       {
-        des: "Learned React basic and applied the knowledge to build this shoe app and practiced to use Trello and learned to host the site using Heroku",
+        des: "Applied foundational React knowledge to build interactive UI elements and improve component-based development.",
+      },
+      {
+        des: "Deployed the project on Heroku, gaining experience in cloud hosting and deployment.",
       },
     ],
     links: [
@@ -419,12 +460,17 @@ const expData = [
     dataTitle: "Chingu.io website link",
     compLink:
       "https://medium.com/chingu/build-hack-learn-230-developer-projects-from-the-chingu-cohorts-43ef6596447e",
+    descriptionTitle: "INITAB – Chrome Extension",
+    projectSummary: "HTML, CSS, JavaScript",
     description: [
       {
-        des: "Built a chrome extension called INITAB using HTML,CSS and JavaScript",
+        des: "Developed a custom Chrome extension called INITAB using HTML, CSS, and JavaScript.",
       },
       {
-        des: "First time experience to build and style an extension and used JavaScript to implement a live clock",
+        des: "Designed and styled the extension UI, gaining hands-on experience in browser extension development.",
+      },
+      {
+        des: "Implemented a live clock feature using JavaScript, enhancing real-time user interaction.",
       },
     ],
     links: [
@@ -450,16 +496,17 @@ const expData = [
     project: "chingu-voyage 08 - group project",
     dataTitle: "Chingu.io website link",
     compLink: "https://chingu.io/",
+    descriptionTitle: "Chingu Clone – Single Page Website",
+    projectSummary: "Collaborative Project | HTML, CSS, JavaScript, GitHub Board",
     description: [
       {
-        des: "First time experience to work with two remote team members from England and Uganda",
+        des: "Worked remotely with a team from England and Uganda to develop a cloned Chingu single-page website using HTML, CSS, and JavaScript.",
       },
       {
-        des: "Built a cloned Chingu single page website using HTML, CSS and JavaScript",
+        des: "Utilized GitHub Board for task tracking, improving workflow and collaboration.",
       },
-      { des: "Used GitHub board to track our tasks" },
       {
-        des: "Learned to use gitHub board, shared the workload and completed the project together with my team members",
+        des: "Gained hands-on experience in remote teamwork, effectively sharing the workload and completing the project together.",
       },
     ],
     links: [
@@ -485,12 +532,17 @@ const expData = [
     project: "chingu-voyage 08 - prework-solo-project",
     dataTitle: "Chingu.io website link",
     compLink: "https://chingu.io/",
+    descriptionTitle: "TickyBot Website",
+    projectSummary: "HTML, CSS, JavaScript, Responsive Design",
     description: [
       {
-        des: "Built TickyBot website using HTML, CSS and vanilla JavaScript",
+        des: "Developed the TickyBot website using HTML, CSS, and Vanilla JavaScript, focusing on interactivity and performance.",
       },
       {
-        des: "Learned to use simple vanilla javaScript and media queries",
+        des: "Implemented media queries to ensure a fully responsive design across different screen sizes.",
+      },
+      {
+        des: "Gained hands-on experience with Vanilla JavaScript, improving fundamental frontend development skills.",
       },
     ],
     links: [
